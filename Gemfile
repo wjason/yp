@@ -29,6 +29,7 @@ gem "wysiwyg-rails"
 gem 'ckeditor'
 gem 'mini_magick'
 gem 'ckeditor-imgur'
+gem 'mina'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
