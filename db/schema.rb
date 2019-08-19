@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2019_08_19_011726) do
     t.integer "club_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["club_id"], name: "index_club_pics_on_club_id"
   end
 
   create_table "clubs", force: :cascade do |t|

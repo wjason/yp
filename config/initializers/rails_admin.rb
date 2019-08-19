@@ -25,10 +25,15 @@ RailsAdmin.config do |config|
 
   config.model Club do
     edit do
-      field :content, :ck_editor
-      field :open
       field :name
+      field :open
+      field :close
+      field :address
+      field :longitude
+      field :latitude
+      field :phone
       field :cover
+      field :content, :ck_editor
       field :club_pics
     end
   end

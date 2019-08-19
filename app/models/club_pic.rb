@@ -1,4 +1,4 @@
 class ClubPic < ApplicationRecord
-    mount_uploaders :pic, ClubPicsUploader
+    mount_uploader :pic, ClubPicsUploader
     belongs_to :club
 end
