@@ -30,6 +30,7 @@ gem 'ckeditor'
 gem 'mini_magick'
 gem 'ckeditor-imgur'
 gem 'mina'
+gem 'mysql2'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
